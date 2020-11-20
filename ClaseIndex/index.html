@@ -15,18 +15,18 @@
             <form action="">
               <label for="Nombre">
                  <span>Ingresa tu nombre</span>
-                 <input type="text" id="nombre" placeholder="Tu nombre" Requeried/>
+                 <input type="text" id="nombre" placeholder="Tu nombre" autocomplete="name" required/>
               </label>
               <label for="Edad">
                  <span>Ingresa tu edad</span>
-                 <input type="number" id="Edad" placeholder="Tu edad" Requeried/>
+                 <input type="number" id="Edad" placeholder="Tu edad" autocomplete="age" required/>
               </label>
               <label>
                  <span>Ingresa tu email</span>
-                 <input type="email" id="email" placeholder="example@example.com" Requeried/>
+                 <input type="email" id="email" autocomplete="email" placeholder="tu correo@dominio.com" required/>
               </label>                
               </select>
-              <input list="Región" Requeried>
+              <input list="Región" autocomplete="country" placeholder="Tu Ciudad" required/>
               <datalist id="Región">
                <option value="Estado de México">Edomex</option>
                <option value="Ciudad de México">CDMX</option>
