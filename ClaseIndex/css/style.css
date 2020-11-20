@@ -4,7 +4,7 @@ body
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    margin: 20px auto;
+    margin: 20px auto; 
     padding: 0%;
     width: 80%;
     
@@ -14,4 +14,46 @@ body
 {
     background: rgb(8, 8, 8);
     color: white;
+}
+
+#REG
+{
+    background: rgb(236, 229, 229);
+    color: rgb(5, 5, 5);
+}
+
+#texto1
+{
+    text-align: left;
+}
+
+#Juguete
+{    
+    margin-left: 150px;
+    width: 100px;
+    height: 70px;    
+}
+
+#texto2
+{
+    text-align: left;
+}
+
+#refri
+{
+    margin-left: 150px;
+    width: 70px;
+    height: 100px;
+}
+
+#texto3
+{
+    text-align: left;
+}
+
+#moto
+{
+    margin-left: 150px;
+    width: 100px;
+    height: 70px;
 }
