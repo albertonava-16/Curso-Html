@@ -1,68 +1,36 @@
 body
 {
-    color: rgb(255, 255, 255);
+    background: #1e1f24;
+    color: #333;
     text-align: center;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: Arial;
     font-size: 20px;
-    margin: 20px auto; 
-    padding: 0%;
-    width: 80%;
-    
+    margin: 0px;
+    padding: 0px;
 }
 
 #container
 {
-    background: rgb(8, 8, 8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(15, 3, 126);
     color: white;
-}
-
-#REG
-{
-    background: rgb(236, 229, 229);
-    color: rgb(5, 5, 5);
+    
 }
 
 #cuerpo
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: aliceblue;
     color: black;
-}
-
-#texto1
-{
-    text-align: left;
-}
+    font-weight: bold;
+    margin: 0;
+    padding: 0.5em;
+    }
 
 #Juguete
-{    
-    margin-left: 150px;
+{   
     width: 100px;
     height: 70px;    
 }
 
-#texto2
-{
-    text-align: left;
-}
-
-#refri
-{
-    margin-left: 150px;
-    width: 70px;
-    height: 100px;
-}
-
-#texto3
-{
-    text-align: left;
-}
-
-#moto
-{
-    margin-left: 150px;
-    width: 100px;
-    height: 70px;
-}

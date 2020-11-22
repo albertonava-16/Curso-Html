@@ -1,0 +1,57 @@
+body
+{
+    color: rgb(253, 253, 253);
+    font-family: cursive;
+    font-size: medium;
+    margin: 5%;
+    padding: 0px;
+}
+
+#HEAD
+{
+    display: flex;    
+    border: solid black 1px;
+    background-color: rgb(9, 20, 180);
+    font-size: xx-large;      
+    font-weight: 100; font-style: italic;     
+}
+
+#Envio
+{
+    background-color: rgb(191, 42, 255);
+    color: rgba(0, 0, 0, 0.993);
+    border: solid white 1px;
+}
+
+#JUGUETES
+{ 
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 80%
+}
+
+#LINEABLANCA
+{
+    display: flex;
+    justify-content: flex-start;    
+    align-items: center;
+    width: 80%
+}
+
+#MOTOS
+{ 
+    display: flex;
+    justify-content: flex-start;  
+    align-items: center;
+    width: 80%
+}
+
+#FOOTER
+{
+    display: flex;
+    background-color: black;
+    color: white;
+    border: solid rgb(255, 254, 254) 1px;
+    width: 100% 
+}
