@@ -1,7 +1,7 @@
 body
 {
     color: rgb(253, 253, 253);
-    font-family: 'Times New Roman';
+    font-family: 'Times New Roman', Times, serif;
     font-size: medium;
     margin: 5%;
     padding: 0px;
