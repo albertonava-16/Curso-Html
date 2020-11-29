@@ -1,6 +1,6 @@
 body
 {
-    color: rgb(253, 253, 253);
+    color: rgb(27, 201, 4);
     font-family: 'Times New Roman';
     font-size: medium;
     margin: 5%;
@@ -21,6 +21,37 @@ body
     background-color: rgb(191, 42, 255);
     color: rgba(0, 0, 0, 0.993);
     border: solid white 1px;
+}
+
+.nav 
+{
+    margin-bottom: 10px;
+    padding-left: 0;        
+    list-style: none;
+}
+
+.nav li
+{
+    display: inline-block;
+}
+
+.nav a
+{
+    background-color: rgb(194, 7, 178);
+    color: azure;
+    padding: 5px;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.nav a:hover
+{
+    color: yellow;
+}
+
+.nav a:active
+{
+    background-color: black;
 }
 
 #JUGUETES
