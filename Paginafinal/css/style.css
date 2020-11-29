@@ -23,6 +23,16 @@ body
     border: solid white 1px;
 }
 
+#Envio:active
+{
+    color: yellow;
+}
+
+#Envio:hover
+{
+    background-color: white;
+}
+
 .nav 
 {
     margin-bottom: 10px;
