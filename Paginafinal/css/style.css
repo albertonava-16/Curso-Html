@@ -9,7 +9,7 @@ body
 
 #HEAD
 {
-    display: flex;    
+    padding: 0.25em;
     border: solid black 1px;
     background-color: rgb(9, 20, 180);
     font-size: xx-large;      
@@ -64,6 +64,14 @@ body
     background-color: black;
 }
 
+.CUERPO
+{
+    display: flex;
+    flex: row;
+    padding: 10px;
+
+}
+
 #JUGUETES
 { 
     display: flex;
@@ -94,5 +102,7 @@ body
     background-color: black;
     color: white;
     border: solid rgb(255, 254, 254) 1px;
-    width: 100% 
+    width: 100%;
+    padding: 0.5em; 
+    
 }
