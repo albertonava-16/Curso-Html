@@ -1,3 +1,10 @@
+*
+{
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+
 body
 {
     color: rgb(27, 201, 4);
@@ -78,6 +85,9 @@ body
     justify-content: flex-start;
     align-items: center;
     width: 80%
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 #LINEABLANCA
@@ -86,6 +96,9 @@ body
     justify-content: flex-start;    
     align-items: center;
     width: 80%
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 #MOTOS
@@ -94,6 +107,9 @@ body
     justify-content: flex-start;  
     align-items: center;
     width: 80%
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
 }
 
 #FOOTER
