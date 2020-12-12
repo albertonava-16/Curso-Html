@@ -9,116 +9,164 @@ body
 {
     color: rgb(27, 201, 4);
     font-family: 'Times New Roman';
-    font-size: medium;
-    margin: 5%;
-    padding: 0px;
+           
 }
 
-#HEAD
+.header
 {
-    padding: 0.25em;
-    border: solid black 1px;
-    background-color: rgb(9, 20, 180);
-    font-size: xx-large;      
-    font-weight: 100; font-style: italic;     
+    margin: 0 auto;
+    margin-top: 25px;
+    width: 100vw;
 }
 
-#Envio
+.header-container-items
 {
-    background-color: rgb(191, 42, 255);
-    color: rgba(0, 0, 0, 0.993);
-    border: solid white 1px;
+    background-color: rgb(9, 20, 180); 
+    padding: 0.25em;       
 }
 
-#Envio:active
+.header-container-items span
 {
-    color: yellow;
+    font-size: 4.5vw;
+    color: rgb(255, 255, 255);    
 }
 
-#Envio:hover
+.header-container-nav
 {
-    background-color: white;
+    margin: 0.40em;
 }
 
-.nav 
+.header-container-nav li
 {
-    margin-bottom: 10px;
-    padding-left: 0;        
-    list-style: none;
+  display: inline-block;
+  background-color: rgb(194, 7, 178); 
+  width: 100px;
+  border-radius: 5px;
+  padding: 3px;    
 }
 
-.nav li
+.header-container-nav  a
 {
-    display: inline-block;
+    color: rgb(255, 255, 255);     
+    text-decoration: none;               
 }
 
-.nav a
+.header-container-nav a:hover
 {
-    background-color: rgb(194, 7, 178);
-    color: white;
-    padding: 5px;
-    border-radius: 2px;
-    text-decoration: none;
+    color: black;
 }
 
-.nav a:hover
+.header-container-nav li:active
 {
-    color: yellow;
+    background-color: cornsilk;
 }
 
-.nav a:active
+.user-register
 {
-    background-color: black;
+    color: rgb(255, 123, 0);
+    padding: 0.25em;        
 }
 
-.CUERPO
+.button:hover
 {
-    display: flex;
-    flex: row;
-    padding: 10px;
-
+  background-color: black;
+  color: wheat;
 }
 
-#JUGUETES
-{ 
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    width: 80%
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}
-
-#LINEABLANCA
+.present
 {
     display: flex;
-    justify-content: flex-start;    
-    align-items: center;
-    width: 80%
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
+    color: rgb(0, 238, 214);    
 }
 
-#MOTOS
-{ 
-    display: flex;
-    justify-content: flex-start;  
-    align-items: center;
-    width: 80%
-    -webkit-box-sizing: border-box;
-       -moz-box-sizing: border-box;
-            box-sizing: border-box;
-}
 
-#FOOTER
+.body
 {
     display: flex;
-    background-color: black;
-    color: white;
-    border: solid rgb(255, 254, 254) 1px;
-    width: 100%;
-    padding: 0.5em; 
+    padding: 00.3em;
+    width: 100vw;
+     
+}
+
+.play
+{
+    display: flex;
+    justify-content: center;
+    margin: 00.25em;
+    padding: 0.5em;    
+}
+
+.play ul a
+{
+    color: rgb(255, 123, 0);
+}
+
+.play-img
+{
+    float: right;    
+    width: 10vw;
+    height: 9.0vw;
+}
+
+.whiteline 
+{
+    
+        display: flex;
+        justify-content: center;
+        margin: 00.25em;
+        padding: 0.5em;    
     
 }
+
+.whiteline ul a
+{
+    color: rgb(255, 123, 0);
+}
+
+.whiteline-img
+{
+    float: right;    
+    width: 5vw;
+    height: 10vw;
+}
+    
+.motorcycle
+{
+    
+    justify-content: center;
+    margin: 00.25em;
+    padding: 0.5em;  
+
+}
+
+.motorcycle ul a
+{
+    color: rgb(255, 123, 0);
+}
+
+
+.motorcycle-img
+{
+    float: left;    
+    width: 15vw;
+    height: 6vw;
+}
+
+.footer
+{
+    display: flex;
+    background-color: black;
+    color: blanchedalmond;
+    width: 100vw;
+    margin-bottom: 0;
+}
+
+.footer img
+{
+    width: 4vw;
+    height: 4vh;
+}
+
+
+
+

@@ -9,54 +9,58 @@
               <link rel="stylesheet" href="./css/style.css">     
         </head>
         <body background="./imagen/Small.jpg">
-            <header>
-                <div id="HEAD">
-                    <img id="LOGO" src="./imagen/logo.png" width="10%" 
+            <header class="header">
+                <div class="header-container-items">
+                    <img src="./imagen/logo.png" width="10%" 
                       alt="MiLogo"/>          
-                    <span id="TAGLINE">Realiza aquí tus compras del super y màs ...</span>                
+                    <span>Realiza aquí tus compras del super y màs ...</span>                
                 </div>
-                <nav>
-                    <ul class="nav">
-                        <li><a href="https://albertonava-16.github.io/Curso-Html.io/Paginafinal/index.html?">home</a></li>
+                <nav class="header-container-nav">
+                    <ul>
+                        <li><a href="https://albertonava-16.github.io/Curso-Html.io/Paginafinal/index.html">home</a></li>
                         <li><a href="">Departamentos</a></li>
                         <li><a href="">Créditos</a></li>
                         <li><a href="https://albertonava-16.github.io/Blogpost.html">Mi HyperBlog</a></li>
                     </ul>
                 </nav>
             </header>
-            <div id="FORMULARIO">
+            <div class="user-register">
                 <form action="">
                     <label for="Nombre">
-                      <span>Registra tu nombre</span>
+                      <span>¡Registrate! Tu nombre</span>
                       <input type="text" id="Nombre" placeholder="Tu nombre" autocomplete="name" required />
                     </label>
                     <label for="email">
-                      <span>Registra tu Email</span>
+                      <span>Tu Email</span>
                       <input type="email" id="email" placeholder="tucorreo@dominio.com" autocomplete="email" required />
-                    </label for="Ciudad">  
-                      <span>Registra tu Ciudad</span>              
+                    </label for="Ciudad">
+                    <label for="Ciudad" >  
+                      <span>Tu Ciudad</span>              
                     <input list="Ciudad" autocomplete="country-name" placeholder="Tu Ciudad" required />
                         <datalist id="Ciudad">
                           <option value="Estado de México">Edomex</option>
                           <option value="Ciudad de México">Cdmx</option>
                           <option value="Fuera del área Metropolitana">Fuera del área Metropolitana</option>
-                        </datalist>                
-                    <button id="Envio">Registrarte y comenzar tu compra</button>
+                        </datalist>   
+                    </label>             
+                    <button class="button">Registrarte y comenzar tu compra</button>
                 </form>
             </div> 
-            <main>               
-                <h3>Tu mejor opción, ingresa a cada una de nuestras secciones</h3>
-            </label>               
+            <main>
+            <div class="present">                   
+                <h3>¡Tu mejor opción! ingresa a cada una de nuestras secciones</h3>
+            <label>               
             <input list="Search" placeholder="Buscar" />
                 <datalist id="Search">
                   <option value="Juguetes"></option>
                   <option value="Linea Blanca"></option>
                   <option value="Motocicletas"></option>
                 </datalist> 
-            </label>              
-                <div class="CUERPO">
-                    <div id="JUGUETES">                        
-                        <img id="JUGUET1" src="./imagen/juguete.jgp.jfif" alt="Belbot" width="15%" />                            
+            </label>
+            </div>              
+                <div class="body">
+                    <div class="play">                        
+                                                   
                             <ul>
                                 <a href="https://www.walmart.com.mx/juguetes" target="_blanck">
                                   <li>Juguetes para Navidad</li>
@@ -67,10 +71,10 @@
                                     <li>Nenucos</li>
                                     <li>Juegos de mesa para toda la familia</li>
                                 </ol>
-                            </ul>                            
+                            </ul>
+                            <img class="play-img" src="./imagen/juguete.jgp.jfif" alt="Belbot" />                                                          
                     </div>
-                    <div id="LINEABLANCA">
-                        <img id="REFRI" src="./imagen/refrigerador.jfif" alt="Refrigerador" width="15%" />
+                    <div class="whiteline">
                         <ul>
                                 <a href="https://www.walmart.com.mx/productos?Ntt=linea%20blanca" target="_blanck">
                                   <li>Lìnea blanca y todo para el hogar</li> 
@@ -81,10 +85,11 @@
                                    <li>Y ropa vieja que venda</li>
                                    <p>Ok, eso ùltimo no, pero si ropa para toda la familia</p>
                                 </ol>
-                            </ul> 
+                        </ul>
+                        <img class="whiteline-img" src="./imagen/refrigerador.jfif" alt="Refrigerador"  />
+                         
                     </div>
-                    <div id="MOTOS">
-                        <img id="MOTO1" src="./imagen/moto.jfif" alt="Motocicletas" width="15%" />
+                    <div class="motorcycle">
                             <ul>
                                 <a href="https://www.walmart.com.mx/deportes/motos" target="_blanck">
                                   <li>Y hasta Motocicletas</li>
@@ -95,13 +100,15 @@
                                     <li>Y algunas màs baras</li>
                                 </ol>
                             </ul>
+                            <img class="motorcycle-img" src="./imagen/moto.jfif" alt="Motocicletas" width="15%" />
+                        
                     </div>                    
                 </div>
             </main>
-                <div id="FOOTER">
+                <footer class="footer">
                     <p>©2020 Diverticompra S.A. de C.V Acerca de Nosotros  Términos y condiciones  Aviso de privacidad Siguenos en:</p>                   
-                    <a href="https://www.facebook.com/" target="_blanck"><img id="REDES" src="./imagen/FB.png" width="50px" /></a>
-                    <a href="https://www.instagram.com/?hl=es-la" target="_blanck"><img src="./imagen/insta.png" width="50px" /></a>
-                </div>           
+                    <a href="https://www.facebook.com/" target="_blanck"><img id="REDES" src="./imagen/FB.png"/></a>
+                    <a href="https://www.instagram.com/?hl=es-la" target="_blanck"><img src="./imagen/insta.png" /></a>
+                </footer>           
         </body>
     </html>
