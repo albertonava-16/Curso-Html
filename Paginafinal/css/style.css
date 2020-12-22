@@ -15,31 +15,38 @@ body
 
 main
 {
-    height: 60vh;
+    height: 66vh;
 }
 
 .header
 {
-    margin: 0 auto;
     margin-top: 25px;
     width: 100vw;
-}
-
-.header-container-items
-{
+    display: flex;
+    justify-content: space-between;    
     background-color: rgb(9, 20, 180); 
-    padding: 0.25em;       
+    height: 10vh;  
+    padding: 0.5rem;       
 }
 
-.header-container-items span
+.header img
 {
-    font-size: 4.5vw;
-    color: rgb(255, 255, 255);    
+    width: 5.5vw;        
+}
+
+.header span
+{
+    display: flex;
+    align-items: flex-end;
+    color: white;
+    font-size: 2.2vw;         
 }
 
 .header-container-nav
 {
-    margin: 0.40em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;        
 }
 
 .header-container-nav li
