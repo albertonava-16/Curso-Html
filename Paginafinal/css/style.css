@@ -7,16 +7,19 @@
 
 body
 {
+    display: flex;
+    flex-flow: column;
     color: rgb(27, 201, 4);
     font-family: 'Times New Roman';
-    background-size:100vw 100vh;
+    width: 100vw;
+    height: 100vh; 
     background-repeat: no-repeat;
-                  
+    background-size: cover;
+    justify-content: space-between;
 }
 
 .header
-{
-    
+{ 
     width: 100vw;
     display: flex;     
     background-color: rgb(9, 20, 180); 
@@ -67,6 +70,7 @@ body
 .header-container-nav li:hover
 {
     background-color: rgba(194, 7, 178, 0.76);
+    
 }
 
 .header-container-nav li:active
@@ -100,6 +104,8 @@ body
   color: wheat;
 }
 
+
+
 .present
 {
     display: flex;    
@@ -111,18 +117,18 @@ body
     margin-right: 20px;
 }
 
-main
+/* main
 {
-  
-
-}
+    margin-top: auto;
+    margin-bottom: auto;
+} */
 
 .principal-body
 {
-    display: flex;
-    flex-direction: column;
+    
     padding: 00.3em;
-    width: 100vw;        
+    width: 100vw;
+    height: inherit;         
 }
 
 .section1
@@ -130,6 +136,8 @@ main
    display: flex;
    flex-direction: row;  
    justify-content: space-around;
+   margin-bottom: 20px;
+   margin-top: 20px;
 }
 
 .section2
@@ -137,19 +145,28 @@ main
     display: flex;
     flex-direction: row;    
     justify-content: space-around;
+    margin-bottom: 20px;
 }
 
 .play
 {
     display: flex;
-    justify-content: center;
-    margin: 00.3em;
-    padding: 0.5em;    
+    align-items: center;    
+    padding: 0.5em;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     border-radius: 20px;    
+}
+
+.play ul
+{
+    margin-right: 5px;
 }
 
 .play ul a
 {
-    color: rgb(255, 123, 0);
+    color: rgb(255, 123, 0);    
 }
 
 .play-img
@@ -157,14 +174,22 @@ main
     float: right;    
     width: 10vw;
     height: 9.0vw;
+    border-radius: 50px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .whiteline 
 {
     display: flex;
-    justify-content: center;
-    margin: 00.3em;
-    padding: 0.5em;    
+    align-items: center;    
+    padding: 0.5em;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     border-radius: 20px;
+         
 }
 
 .whiteline ul a
@@ -172,19 +197,30 @@ main
     color: rgb(255, 123, 0);
 }
 
+.whiteline ul
+{
+    margin-right: 5px;
+}
+
 .whiteline-img
 {
     float: right;    
-    width: 10vw;
-    height: 9.0vw;
+    width: 5vw;
+    height: 10vw;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);    
 }
     
 .motorcycle
 {
     display: flex;
-    justify-content: flex-start;
-    margin: 00.3em;
-    padding: 0.5em;    
+    align-items: center;   
+    padding: 1rem;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     border-radius: 20px;    
 }
 
 .motorcycle ul a
@@ -192,27 +228,67 @@ main
     color: rgb(255, 123, 0);
 }
 
+.motorcycle ul
+{
+    margin-right: 10px;
+}
+
 
 .motorcycle-img
 {
-    float: right;    
-    width: 10vw;
-    height: 9.0vw;
+    float: right; 
+    border-radius: 20px;     
+    width: 14vw;
+    height: 7vw;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
 }
 
 .tecnology
 {
     display: flex;
-    justify-content: center;
+    align-items: center;
     margin: 00.3em;
-    padding: 0.5em;    
+    padding: 0.5em;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     border-radius: 20px;    
+}
+
+.tecnology ul a
+{
+    color: rgb(255, 123, 0);    
+}
+
+.tecnology ul
+{
+    margin-right: 5px;
 }
 
 .tecnology-img
 {
     float: right;    
     width: 10vw;
-    height: 9.0vw;
+    height: 12vh;
+    border-radius: 10px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+
+}
+
+footer
+{  
+  background: #000000;  
+  color: rgb(252, 252, 252);   
+  padding: 0.5em;
+  width: 100vw;
+  /* margin-top: auto; */
+  
+
 }
 
 footer img
@@ -221,20 +297,10 @@ footer img
     height: 4vh;
 }
 
-footer
-{
-  display: flex; 
-  flex-wrap: wrap;
-  background: #000000;  
-  color: rgb(252, 252, 252);   
-  padding: 0.5em;
-  width: 100vw;
- 
-}
-
 footer p
 {
-   display: inline-block;   
+   display: inline-block;
+      
 }
 
 
