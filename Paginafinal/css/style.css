@@ -240,14 +240,14 @@ body
     
 .motorcycle
 {
-    display: flex;
-    align-items: center;
+     display: flex;
+    align-items: center; 
     text-align: center;   
     padding: 0.5em;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-     border-radius: 20px;    
+     border-radius: 20px;   
 }
 
 .motorcycle ul a
@@ -284,8 +284,8 @@ body
     display: flex;
     align-items: center;
     text-align: center;
-    margin: 00.3em;
-    padding: 0.5em;
+    
+   padding: 0.5em;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -310,8 +310,8 @@ body
 .tecnology-img
 {
     float: right;    
-    width: 8vw;
-    height: 10vh;
+    width: 7vw;
+    height: 7vh;
     border-radius: 12px;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
