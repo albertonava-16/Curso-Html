@@ -16,6 +16,7 @@ body
     background-repeat: no-repeat;
     background-size: cover;
     justify-content: space-between;
+    background-position: center;
 }
 
 .header
@@ -58,7 +59,10 @@ body
   background-color: rgb(194, 7, 178); 
   width: 100px;
   border-radius: 5px;
-  padding: 3px;    
+  padding: 3px; 
+  border: solid 1px rgb(194, 7, 178);
+  text-align: center;
+  font-size: 1vw; 
 }
 
 .header-container-nav  a
@@ -115,6 +119,7 @@ body
 .present h3
 {
     margin-right: 20px;
+    font-size: 2vw;
 }
 
 /* main
@@ -126,12 +131,15 @@ body
 .principal-body
 {
     
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
     padding: 00.3em;
     width: 100vw;
     height: inherit;         
 }
 
-.section1
+/* .section1
 {
    display: flex;
    flex-direction: row;  
@@ -146,27 +154,36 @@ body
     flex-direction: row;    
     justify-content: space-around;
     margin-bottom: 20px;
-}
+} */
 
 .play
 {
     display: flex;
-    align-items: center;    
+    justify-content: center;
+    text-align: center;   
     padding: 0.5em;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-     border-radius: 20px;    
+     border-radius: 20px;  
+      
 }
 
 .play ul
 {
     margin-right: 5px;
+    list-style: none;     
+}
+
+.play li
+{
+    list-style: none;
 }
 
 .play ul a
 {
-    color: rgb(255, 123, 0);    
+    color: rgb(255, 123, 0);
+        
 }
 
 .play-img
@@ -178,17 +195,20 @@ body
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+     
 }
 
 .whiteline 
 {
     display: flex;
-    align-items: center;    
+    align-items: center; 
+    text-align: center;   
     padding: 0.5em;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
      box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
      border-radius: 20px;
+     
          
 }
 
@@ -200,6 +220,12 @@ body
 .whiteline ul
 {
     margin-right: 5px;
+    list-style: none;
+}
+
+.whiteline li
+{
+    list-style: none;
 }
 
 .whiteline-img
@@ -215,7 +241,8 @@ body
 .motorcycle
 {
     display: flex;
-    align-items: center;   
+    align-items: center; 
+    text-align: center;  
     padding: 1rem;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -231,6 +258,12 @@ body
 .motorcycle ul
 {
     margin-right: 10px;
+    list-style: none;
+}
+
+.motorcycle li
+{
+    list-style: none;
 }
 
 
@@ -250,6 +283,7 @@ body
 {
     display: flex;
     align-items: center;
+    text-align: center;
     margin: 00.3em;
     padding: 0.5em;
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
@@ -266,6 +300,11 @@ body
 .tecnology ul
 {
     margin-right: 5px;
+    list-style: none;
+}
+
+.tecnology li{
+    list-style: none;
 }
 
 .tecnology-img
