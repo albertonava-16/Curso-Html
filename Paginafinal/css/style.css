@@ -287,7 +287,8 @@ body
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     border-radius: 20px;  
     width: 30rem;
-    height: 10rem;   
+    height: 10rem; 
+
 }
 
 .motorcycle ul a
@@ -364,8 +365,8 @@ body
     float: right;    
     width: 15vw;
     height: 10vh;
-    border-radius: 12px;
 }
+
 
 footer
 {  
