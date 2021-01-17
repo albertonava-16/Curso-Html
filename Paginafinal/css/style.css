@@ -391,8 +391,21 @@ footer p
       
 }
 
-@media (min-width: 700px)
+@media (min-width: 628px)
 {
+
+    .header-container-nav li
+    {
+      display: inline-block;
+      background-color: rgb(194, 7, 178); 
+      width: 100px;
+      border-radius: 5px;
+      padding: 3px; 
+      border: solid 1px rgb(194, 7, 178);
+      text-align: center;
+      font-size: 2.0vw; 
+    }
+    
     .motorcycle-img
 {
     float: right; 
@@ -400,6 +413,7 @@ footer p
     width: 20vw;
     height: 10vw;
 }
+
 }
 
 
