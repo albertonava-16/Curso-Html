@@ -363,7 +363,7 @@ body
 .tecnology-img
 {
     float: right;    
-    width: 15vw;
+    width: 16vw;
     height: 10vh;
 }
 
@@ -391,6 +391,47 @@ footer p
       
 }
 
+@media (min-width: 700px)
+{
+    .motorcycle-img
+{
+    float: right; 
+    border-radius: 20px;     
+    width: 20vw;
+    height: 10vw;
+}
+}
 
 
+
+@media (min-width: 1024px)
+{
+    .header-container-nav li
+{
+  display: inline-block;
+  background-color: rgb(194, 7, 178); 
+  width: 100px;
+  border-radius: 5px;
+  padding: 3px; 
+  border: solid 1px rgb(194, 7, 178);
+  text-align: center;
+  font-size: 1.1vw; 
+}
+
+.motorcycle-img
+{
+    float: right; 
+    border-radius: 20px;     
+    width: 15vw;
+    height: 10vw;
+}
+
+.tecnology-img
+{
+    float: right;    
+    width: 12vw;
+    height: 13vh;
+}
+
+}
 
